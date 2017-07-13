@@ -1,3 +1,27 @@
-html{
-	background-color: blue;
+.wrapper{
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr;
+	/*grid-column-gap:1px;
+    grid-row-gap:1px;*/
+    grid-auto-rows:200px;
+}
+h1, h2{
+	text-align: center;
+}
+h2{}
+header{
+	grid-column:1 ;
+	grid-row:1;
+}
+.form{
+	grid-column:2;
+	grid-row:1;
+}
+.picture{
+	
+	grid-column:3;
+	grid-row:1;
+}
+img{
+	max-height: 100%;
 }
